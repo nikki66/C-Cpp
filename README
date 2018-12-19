@@ -1,0 +1,25 @@
+Nicole El-Sayegh
+Comp 2404B - Assignment 1
+
+
+Source files: assignment1.c ( as well as 'assignment1' file which is the executable) 
+
+Headers included: stdio.h
+					  string.h
+
+
+Purpose: A small program which could be used by an automotive mechanic
+           business to keep track of their customers and their vehicles. (using pointers)
+
+
+Commands used: gcc  -Wall  -o assignment1 assignment1.c
+					
+	       				
+	       
+Launching and Operating instructions:  Extract the files
+											  No user input needed. Just run the program.
+											   The ouput should be exactly the same as shown in the sample
+											 ./assignment1
+	          												
+
+
