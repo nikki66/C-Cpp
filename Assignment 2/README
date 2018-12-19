@@ -1,0 +1,32 @@
+Nicole El-Sayegh
+Comp 2404B - Assignment 2
+Email (if any issues) - nicoleelsayegh@cmail.carleton.ca
+
+
+Source files: CustomerArray.cc View.cc Shop.cc Vehicle.cc Customer.cc main.cc 
+			     ShopController.cc VehicleArray.cc
+
+Headers included: Customer.h  ShopController.h VehicleArray.h CustomerArray.h
+					  defs.h Shop.h View.h Vehicle.h
+
+Other files: Makefile and UML. pdf (UML diagram for task 1)
+
+Purpose: In this assignment you will essentially convert the program you created in Assignment 1 into a program
+written in C++ using classes and object oriented design principles. A large part of this program has been
+provided to you to build from. It was designed using the model–view–controller design pattern that you
+should be familiar with.
+
+Commands used: make
+					       				
+	       
+Launching and Operating instructions:  Extract the files
+											   Run the program. Then input the number 1.
+											   The ouput should be exactly the same as shown in the sample
+											 ./mechanicshop
+											 
+											 To check any memory leaks:
+											 valgrind ./mechanicshop
+											 Note:  valgrind reports that some memory on the heap is “still reachable”. Prof said not to worry about it.   
+	          												
+
+
