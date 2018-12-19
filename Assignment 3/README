@@ -1,0 +1,41 @@
+Nicole El-Sayegh
+Comp 2404B - Assignment 3
+
+
+
+Source files: CustomerList.cc View.cc Shop.cc Vehicle.cc Customer.cc main.cc 
+			     ShopController.cc VehicleList.cc
+
+Headers included: Customer.h  ShopController.h VehicleList.h CustomerList.h
+					  defs.h Shop.h View.h Vehicle.h
+
+Other files: Makefile 
+
+Purpose: In this assignment we essentially convert the program we created in Assignment 2 into a program
+written in C++ using linked classes instead of array classes. It was designed using the model–view–controller design.
+
+Commands used: make clean
+					make
+					       				
+	       
+Launching and Operating instructions:  Extract the files
+											   Run the program. 
+											    ./mechanicshop
+											    
+											   1.  Then input the number 1.
+											   2.  Then input number 2 if you want to add a customer. Complete all details.
+											   3.  Input number 1 to see if the customer is added.
+											   4.  Input number 3 to add vehicle. You will be asked to input Customer ID.
+											   5.  Input 1008. Note: It will tell you that the Customer Id is Invalid.
+											   6.  Input 1006. Add the required information.
+											   7.  Input number 1 to see if the vehicle added to customer with ID 1006.
+											   8.  Quit by inputting 0.
+											   
+											  The ouput should be exactly the same as shown in the sample.
+																						 
+											 To check any memory leaks:
+											 valgrind ./mechanicshop
+											 Note:  valgrind reports that some memory on the heap is “still reachable”. Prof said not to worry about it.   
+	          												
+
+
