@@ -1,0 +1,53 @@
+Nicole El-Sayegh
+Comp 2404B - Assignment 5
+
+
+Source files: View.cc Shop.cc Vehicle.cc Customer.cc main.cc 
+			     ShopController.cc Person.cc Mechanic.cc Car.cc Truck.cc Motorcycle.cc VehicleFactory.cc
+
+Headers included: Customer.h  ShopController.h LinkedList.h
+					  defs.h Shop.h View.h Vehicle.h Person.h Mechanic.h Car.h Truck.h Motorcycle.h VehicleFactory.h
+
+Other files: Makefile 
+
+Purpose: In this assignment we essentially convert the program we created in Assignment 4 into a program
+written in C++ using overloading operators, template class and virtual pure functions. It was designed using the model–view–controller design.
+
+Commands used: make clean
+					make
+					       				
+	       
+Launching and Operating instructions:  Extract the files
+											   Run the program. 
+											    ./mechanicshop
+											    
+											    Note:  you can follow the example that prof gives on the assignment or follow below. 
+											    
+											   1.  Then input the number 1.
+											   2.  Then input number 2 if you want to add a customer. Complete all details.
+											   3.  Input number 1 to see if the customer is added.
+											   4.  Input number 3 to add vehicle. You will be asked to input Customer ID.
+											   5.  Input 1008. Note: It will tell you that the Customer Id is Invalid.
+											   6.  Input 1005. You will be asked to pick one of the vehicle types.
+											   7.  Input 1,2 or 3 for valid input. Add the required information.
+											   8.  if you input 3 (Motorcycle), one of the required info will ask if it has a side door or not.
+											   Note: if you don't input y or n, it will continue to ask you for a valid input.
+											   9.  Input number 1 to see if the vehicle added to customer with ID 1005.
+											   10. Input Number 4 to remove customer. You will be asked to input Customer ID.
+											   11.  Input 1008. Note: It will tell you that the Customer Id is Invalid.
+											   12.  Input 1005. Customer will be successfully removed.
+											   13. Input Number 5 to remove Vehicle. You will be asked to input Customer ID.
+											   14.  Input 1008. Note: It will tell you that the Customer Id is Invalid.
+											   15.  Input 1005. It will tell you to choose a vehicle from the range of numbers provided.
+											   16. If you input an invalid number, it will prompt you. otherwise, it'll successfully removes the vehicle.
+											   17. Input 6 to print all the Mechanics.
+											   18.  Quit by inputting 0.
+											   
+											  The ouput should be exactly the same as shown in the sample.
+																						 
+											 To check any memory leaks:
+											 valgrind ./mechanicshop
+											 Note:  valgrind reports that some memory on the heap is “still reachable”. Prof said not to worry about it.   
+	          												
+
+
