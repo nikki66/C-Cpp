@@ -1,17 +1,18 @@
 Nicole El-Sayegh
-Comp 2404B - Assignment 3
+Comp 2404B - Assignment 4
+
 
 
 Source files: CustomerList.cc View.cc Shop.cc Vehicle.cc Customer.cc main.cc 
-			     ShopController.cc VehicleList.cc
+			     ShopController.cc VehicleList.cc Person.cc Mechanic.cc
 
 Headers included: Customer.h  ShopController.h VehicleList.h CustomerList.h
-					  defs.h Shop.h View.h Vehicle.h
+					  defs.h Shop.h View.h Vehicle.h Person.h Mechanic.h
 
 Other files: Makefile 
 
-Purpose: In this assignment we essentially convert the program we created in Assignment 2 into a program
-written in C++ using linked classes instead of array classes. It was designed using the model–view–controller design.
+Purpose: In this assignment we essentially convert the program we created in Assignment 3 into a program
+written in C++ using overloading operators. It was designed using the model–view–controller design.
 
 Commands used: make clean
 					make
@@ -21,6 +22,8 @@ Launching and Operating instructions:  Extract the files
 											   Run the program. 
 											    ./mechanicshop
 											    
+											    Note:  you can follow the example that prof gives on the assignment or follow below. 
+											    
 											   1.  Then input the number 1.
 											   2.  Then input number 2 if you want to add a customer. Complete all details.
 											   3.  Input number 1 to see if the customer is added.
@@ -28,7 +31,15 @@ Launching and Operating instructions:  Extract the files
 											   5.  Input 1008. Note: It will tell you that the Customer Id is Invalid.
 											   6.  Input 1006. Add the required information.
 											   7.  Input number 1 to see if the vehicle added to customer with ID 1006.
-											   8.  Quit by inputting 0.
+											   8. Input Number 4 to remove customer. You will be asked to input Customer ID.
+											   9.  Input 1008. Note: It will tell you that the Customer Id is Invalid.
+											   10.  Input 1005. Customer will be successfully removed.
+											   11. Input Number 5 to remove Vehicle. You will be asked to input Customer ID.
+											   12.  Input 1008. Note: It will tell you that the Customer Id is Invalid.
+											   13.  Input 1005. It will tell you to choose a vehicle from the range of numbers provided.
+											   14. If you input an invalid number, it will prompt you. otherwise, it'll successfully removes the vehicle.
+											   15. Input 6 to print all the Mechanics.
+											   16.  Quit by inputting 0.
 											   
 											  The ouput should be exactly the same as shown in the sample.
 																						 
